@@ -1,0 +1,11 @@
+2024-05-19 22:36:11,360 [INFO] USER:hzt project.py:77:generate_project_structure LOG: Project task01 folder has been successfully created.
+2024-05-19 22:36:11,360 [INFO] USER:hzt helper.py:336:timed LOG: Stage project, elapsed time: 0:00:00.001531
+2024-05-19 22:36:55,106 [INFO] USER:hzt s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-sbox02'
+2024-05-19 22:36:55,106 [INFO] USER:hzt s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-sbox02'
+2024-05-19 22:36:55,832 [WARNING] USER:hzt generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2024-05-19 22:36:55,832 [WARNING] USER:hzt generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path /home/hzt/Programming/epam/Deep-Dive-To-Serverless/task01/.syndicate-config-dev
+2024-05-19 22:36:55,834 [INFO] USER:hzt generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="/home/hzt/Programming/epam/Deep-Dive-To-Serverless/task01/.syndicate-config-dev"
+Windows: setx SDCT_CONF /home/hzt/Programming/epam/Deep-Dive-To-Serverless/task01/.syndicate-config-dev
+2024-05-19 22:36:55,835 [INFO] USER:hzt helper.py:336:timed LOG: Stage config, elapsed time: 0:00:00.720096
