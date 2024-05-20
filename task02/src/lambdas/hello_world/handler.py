@@ -1,5 +1,6 @@
 from commons.log_helper import get_logger
 from commons.abstract_lambda import AbstractLambda
+import json
 
 _LOG = get_logger('HelloWorld-handler')
 
