@@ -14,9 +14,6 @@
   "publish_version": true,
   "alias": "${lambdas_alias_name}",
   "url_config": {
-    "auth_type": "NONE",
-    "principal": "*",
-    "source_arn": "*"
   },
   "ephemeral_storage": 512,
   "logs_expiration": "${logs_expiration}"
