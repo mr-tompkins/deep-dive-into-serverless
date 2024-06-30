@@ -12,12 +12,9 @@ class HelloWorld(AbstractLambda):
         pass
         
     def handle_request(self, event, context):
-        
         return {
-            'statusCode': 200,
-            'body': json.dumps({
-                "message": "Hello from Lambda"
-            })
+            "statusCode": 200,
+            "message": "Hello from Lambda"
         }
     
 
