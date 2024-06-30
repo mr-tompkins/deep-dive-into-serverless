@@ -14,13 +14,21 @@ class HelloWorld(AbstractLambda):
         method = event['requestContext']['http']['method']
         rawPath = event['rawPath']
 
-        if(method == "GET" and rawPath=="/hello"):
+        if(method == "GET" and rawPath == "/hello"):
             return {
+                'statusCode': 200,
+                 'body': {
+                    'statusCode': 200,
+                     'message': 'Hello from Lambda'
+                 }
             }
         else:
             return {
-                'statusCode': 400,
-                'message': f"Bad request syntax or unsupported method. Request path: {rawPath}. HTTP method: {method}"
+                'statusCode': 200,
+                 'body': {
+                     'statusCode': 400,
+                     'message': f"Bad request syntax or unsupported method. Request path: {rawPath}. HTTP method: {method}"
+                 }
             }
 
 HANDLER = HelloWorld()
