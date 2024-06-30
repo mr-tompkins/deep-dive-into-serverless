@@ -14,7 +14,7 @@ class HelloWorld(AbstractLambda):
         return {
             'statusCode': 200,
             'body': json.dumps({
-                "message": "Hello from lambda"
+                "message": "Hello from Lambda"
             })
         }
     
