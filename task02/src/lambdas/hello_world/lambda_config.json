@@ -16,5 +16,6 @@
     "auth_type": "NONE"
   },
   "ephemeral_storage": 512,
+  "alias": "learn",
   "logs_expiration": "${logs_expiration}"
 }
