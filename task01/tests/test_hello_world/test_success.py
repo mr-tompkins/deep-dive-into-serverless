@@ -9,7 +9,7 @@ class TestSuccess(HelloWorldLambdaTestCase):
             'message': 'Hello from Lambda'
         }
         
-        actual = self.HANDLER.handle_request(dict(), dict());
+        actual = self.HANDLER.handle_request(dict(), dict())
 
         self.assertEqual(actual, expected)
 
